@@ -1,0 +1,56 @@
+body {
+  background-color: #b3ecec;
+  margin: 0;
+  padding: 0;
+}
+.TwoKoalas {
+  height: 400px;
+  margin: 20px;
+  border: dotted 15px white;
+}
+.OuterRectangle {
+  height: 200px;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  border: solid 10px white;
+}
+.Middle, .RedPanda {
+  height: 300px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+#Row1, #Row3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Row2 {
+  display: flex;
+  justify-content: center;
+}
+#Tiger {
+  position: absolute;
+  clip: rect(0px,100px,200px,0px);
+}
+.Koala {
+  display: flex;
+  justify-content: center;
+}
+.Diamond .Diamond div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+.Diamond {
+  transform: rotate(45deg);
+  translateY(-74px;)
+}
+.Diamond .Shape img {
+  width: 100%;
+  height: auto;
+}
