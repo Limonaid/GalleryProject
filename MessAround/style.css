@@ -5,16 +5,18 @@ ul {
   transform: translate(-50%,-50%);
   margin: -15px;
   width: 300px;
-  height: 150px;
+  height: 600px;
 }
 ul li {
   list-style: none;
   position:  absolute;
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   background: #000;
   transform: rotate(45deg);
   transition: .5s;
+  margin: 195px;
+  overflow: hidden;
 }
 ul li.item1 {
   top: 0;
@@ -35,4 +37,12 @@ ul li.item4 {
 ul li.item5 {
   top: 0;
   left: 100%;
+}
+ul li .bg {
+  width: 100%;
+  height:100%;
+}
+ul li.item1 .bg {
+  background: url(/Users/apple/desktop/kwkprojects/photogallery/Photos/RedPandaScratching.jpeg);
+  background-size: cover;
 }
